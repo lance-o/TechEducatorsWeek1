@@ -55,8 +55,8 @@ a{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-.coolTower{
-    background-image:url(https://picsum.photos/1280/720);
+.randomImg{
+    background-image:url(./Resources/cooltower.jpg);
 }
 
 .lushScenery{
