@@ -22,11 +22,11 @@ function reportScrollY(){
 }
 
 function reportScrollYUpdate(){
-    return reportScrollY() / 1200 + 0.3;
+    return reportScrollY() / 1000;
 }
 
 function darkenBar(){
-    if(reportScrollY() >= 300){
+    if(reportScrollY() >= 100){
         headerBar.style.background = "rgba(0, 0, 0, " + `${reportScrollYUpdate()}` + ")";
     }
     else{
