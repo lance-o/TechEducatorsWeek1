@@ -22,7 +22,7 @@ function reportScrollY(){
 }
 
 function reportScrollYUpdate(){
-    return reportScrollY() / 1000;
+    return (reportScrollY() - 100) * (0.9 / 1270) * 2;
 }
 
 function darkenBar(){
@@ -30,7 +30,7 @@ function darkenBar(){
         headerBar.style.background = "rgba(0, 0, 0, " + `${reportScrollYUpdate()}` + ")";
     }
     else{
-        headerBar.style.background = "rgba(0, 0, 0, 0.1)";
+        headerBar.style.background = "rgba(0, 0, 0, 0.0)";
     }
     window.requestAnimationFrame(darkenBar);
 }
