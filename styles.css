@@ -1,0 +1,80 @@
+body{
+    margin:0px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin:20px;
+    z-index:1;
+    color:white;
+    position:fixed;
+}
+
+.NavItem{
+    margin: 10px;
+    position: relative;
+    left: 20px;
+    top: -25px;
+    color:white;
+    text-decoration: none;
+}
+
+a{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.NavItem:hover{
+    text-decoration: underline;
+}
+
+
+.feature {
+    position:relative;
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    width:100vw;
+  }
+
+.feature a{
+    color:white;
+    text-decoration: none;
+}
+
+.feature a:hover{
+    text-decoration: underline;
+}
+
+.horridFog{
+    background-image:url(./Resources/horriblefog.jpg);
+}
+
+.feature2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.coolTower{
+    background-image:url(https://picsum.photos/1280/720);
+}
+
+.lushScenery{
+    background-image:url(./Resources/lushscenery.jpg);
+}
+
+  .title {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color:white;
+  }
+
+  footer{
+    display:flex;
+    justify-content:center;
+    background-color:tomato;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    width:100vw;
+}
