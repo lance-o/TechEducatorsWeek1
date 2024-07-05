@@ -6,10 +6,16 @@ header{
     display: flex;
     flex-direction: row;
     align-items: end;
-    margin:20px;
     z-index:1;
     color:white;
+    background-color: black;
+    background: rgba(0, 0, 0, 0.1);
+    width: 100vw;
     position:fixed;
+}
+
+header h1{
+    margin:20px;
 }
 
 .NavItem{
